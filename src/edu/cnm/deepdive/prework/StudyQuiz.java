@@ -21,7 +21,7 @@ public class StudyQuiz {
       Scanner input = new Scanner(System.in);
 
       System.out.println("Intro to Java Study Quiz");
-      System.out.println("Please select your answer by typing in the number corresponding to it");
+      System.out.println("Please select your answer by typing in the number corresponding to it\n");
 
       //Question 1
       System.out.println("Real-world objects contain " + "_____ " + "and " + "____.");
@@ -44,7 +44,7 @@ public class StudyQuiz {
       System.out.println(next);
 
       //Question 2
-      System.out.println("A software object's state is stored in " + "____");
+      System.out.println("A software object's state is stored in " + "____.");
       System.out.println("1) Overflow\n2) Fields\n3) Variables\n4) 64 bit");
       b = input.nextInt();
 
@@ -64,7 +64,7 @@ public class StudyQuiz {
       System.out.println(next);
 
       //Question 3
-      System.out.println("Hiding internal data from the outside world, and accessing it only through publicly exposed methods is known as data " + "____");
+      System.out.println("Hiding internal data from the outside world, and accessing it only through publicly exposed methods is known as data " + "____.");
       System.out.println("1) Storage");
       System.out.println("2) Encapsulation");
       System.out.println("3) Allocation");
@@ -89,8 +89,8 @@ public class StudyQuiz {
       System.out.println(next);
 
       //Question 4
-      System.out.println("A software object's behavior is exposed through " + "____");
-      System.out.println("1) Methods\n2) Fields\n3)Interface \n4) Operators");
+      System.out.println("A software object's behavior is exposed through " + "____.");
+      System.out.println("1) Methods\n2) Fields\n3) Interface\n4) Operators");
       c = input.nextInt();
 
       if (c > 4)
